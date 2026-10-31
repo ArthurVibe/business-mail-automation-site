@@ -1,0 +1,162 @@
+[
+  {
+    "width": 375,
+    "section": "hero",
+    "original_size": [375, 721],
+    "project_size": [375, 721],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 375,
+    "section": "demo",
+    "original_size": [375, 1671],
+    "project_size": [375, 1671],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 375,
+    "section": "economy",
+    "original_size": [375, 2810],
+    "project_size": [375, 2810],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 375,
+    "section": "consultant",
+    "original_size": [375, 1470],
+    "project_size": [375, 1470],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 390,
+    "section": "hero",
+    "original_size": [390, 721],
+    "project_size": [390, 721],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 390,
+    "section": "demo",
+    "original_size": [390, 1617],
+    "project_size": [390, 1617],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 390,
+    "section": "economy",
+    "original_size": [390, 2792],
+    "project_size": [390, 2792],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 390,
+    "section": "consultant",
+    "original_size": [390, 1409],
+    "project_size": [390, 1409],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 768,
+    "section": "hero",
+    "original_size": [768, 851],
+    "project_size": [768, 851],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 768,
+    "section": "demo",
+    "original_size": [768, 1024],
+    "project_size": [768, 1024],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 768,
+    "section": "economy",
+    "original_size": [768, 1747],
+    "project_size": [768, 1747],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 768,
+    "section": "consultant",
+    "original_size": [768, 1144],
+    "project_size": [768, 1144],
+    "changed_percent": 0.31,
+    "mean_abs_channel_difference": 0.1803
+  },
+  {
+    "width": 1024,
+    "section": "hero",
+    "original_size": [1024, 851],
+    "project_size": [1024, 851],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 1024,
+    "section": "demo",
+    "original_size": [1024, 1023],
+    "project_size": [1024, 1023],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 1024,
+    "section": "economy",
+    "original_size": [1024, 1176],
+    "project_size": [1024, 1176],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 1024,
+    "section": "consultant",
+    "original_size": [1024, 930],
+    "project_size": [1024, 930],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 1440,
+    "section": "hero",
+    "original_size": [1440, 851],
+    "project_size": [1440, 851],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 1440,
+    "section": "demo",
+    "original_size": [1440, 1071],
+    "project_size": [1440, 1071],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 1440,
+    "section": "economy",
+    "original_size": [1440, 1173],
+    "project_size": [1440, 1173],
+    "changed_percent": 0.0,
+    "mean_abs_channel_difference": 0.0
+  },
+  {
+    "width": 1440,
+    "section": "consultant",
+    "original_size": [1440, 1129],
+    "project_size": [1440, 1129],
+    "changed_percent": 0.038,
+    "mean_abs_channel_difference": 0.0067
+  }
+]
