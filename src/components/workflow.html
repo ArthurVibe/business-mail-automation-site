@@ -1,0 +1,73 @@
+<section class="panel on" id="demo">
+  <h2>Посмотрите, как работает AI</h2>
+  <p class="subtitle">
+    Выберите реальное для вашего бизнеса действие. Демо работает на
+    подготовленных примерах.
+  </p>
+  <div class="quick">
+    <button data-scenario="0">Запрос цены / RFQ</button
+    ><button data-scenario="1">Предложение поставщика</button
+    ><button data-scenario="2">Напоминание о сроках</button>
+  </div>
+  <p aria-live="polite" id="scenarioDetails">
+    Сценарий: входящий запрос цены. AI определяет тип письма, извлекает товар и
+    количество и подготавливает проект ответа.
+  </p>
+  <button class="btn" data-process-scenario>▶ Показать обработку</button>
+  <div class="workflow38" id="workflow38">
+    <div class="wf38-head">
+      <strong>SUPPLIER WORKFLOW · ИНТЕРАКТИВНЫЙ ПРИМЕР</strong
+      ><span>SIMULATION / Без реальной отправки писем</span>
+    </div>
+    <div class="wf38-progress"><i id="wf38Bar"></i></div>
+    <div class="wf38-top">
+      <h3>От запроса поставщикам до сравнения предложений</h3>
+      <p>
+        Четыре последовательных шага на подготовленных демонстрационных данных.
+      </p>
+    </div>
+    <div class="wf38-pipeline" id="wf38Stages">
+      <div class="wf38-stage">
+        <span class="wf38-icon">01</span><strong>Запрос</strong
+        ><small>Подготовка RFQ</small>
+      </div>
+      <div class="wf38-stage">
+        <span class="wf38-icon">02</span><strong>Рассылка</strong
+        ><small>Поставщики</small>
+      </div>
+      <div class="wf38-stage">
+        <span class="wf38-icon">03</span><strong>Ответы</strong
+        ><small>Сбор условий</small>
+      </div>
+      <div class="wf38-stage">
+        <span class="wf38-icon">04</span><strong>Сравнение</strong
+        ><small>Таблица результатов</small>
+      </div>
+    </div>
+    <div class="wf38-body">
+      <div class="wf38-pane">
+        <h4>ВХОДНЫЕ ДАННЫЕ</h4>
+        <!-- prettier-ignore -->
+        <p id="wf38Input">Товар: Product A
+Количество: 5 000 шт.
+Поставщики: Alpha, Beta, Gamma
+Цель: получить цену, срок поставки и условия оплаты.</p>
+      </div>
+      <div class="wf38-pane result">
+        <h4>РЕЗУЛЬТАТ ЭТАПА</h4>
+        <p aria-live="polite" id="wf38Output">
+          Нажмите «Показать процесс», чтобы увидеть последовательность работы.
+        </p>
+      </div>
+    </div>
+    <div class="wf38-actions">
+      <button class="btn" id="wf38Run" data-run-workflow>
+        ▶ Показать процесс</button
+      ><button class="btn secondary" data-reset-workflow>↻ Сначала</button
+      ><span class="wf38-caption"
+        >Цены и ответы поставщиков вымышлены · Решение не отправляет
+        письма</span
+      >
+    </div>
+  </div>
+</section>

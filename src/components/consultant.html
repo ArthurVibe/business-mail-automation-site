@@ -1,0 +1,62 @@
+<section class="panel on third-page" id="consultant">
+  <div class="third-page-heading">
+    <div class="third-page-eyebrow">03 / AI CONSULTANT</div>
+    <h2>Ваш персональный AI-консультант</h2>
+    <p>
+      Расскажите о задачах компании. Слева — диалог, справа — предварительное
+      предложение.
+    </p>
+  </div>
+  <div class="chat-intro">
+    <div aria-hidden="true" class="ai-orb"></div>
+    <div>
+      <strong>Ваш AI-консультант</strong
+      ><span
+        >Расскажите о своих процессах — я помогу выбрать подходящий сценарий
+        автоматизации.</span
+      >
+    </div>
+  </div>
+  <p class="subtitle">
+    Демо-консультант отвечает по заранее заданным правилам. Реальная AI-модель
+    пока не подключена.
+  </p>
+  <div class="chat">
+    <div>
+      <div aria-live="polite" class="chatlog" id="chatlog">
+        <div class="bubble">
+          Здравствуйте! Я помогу разобраться в возможностях автоматизации.
+          Сколько у вас почтовых ящиков и писем в день?
+        </div>
+      </div>
+      <div class="quick">
+        <button data-ask="Что умеет система?">Что умеет система?</button
+        ><button data-ask="Сколько стоит?">Сколько стоит?</button
+        ><button data-ask="Как рассчитать выгоду?">Экономика</button>
+      </div>
+      <form class="chatrow" data-form="chat">
+        <input
+          aria-label="Сообщение консультанту"
+          id="chatInput"
+          placeholder="Напишите вопрос или параметры..."
+        /><button class="btn" type="submit">Отправить</button>
+      </form>
+    </div>
+    <div class="summary">
+      <div class="eyebrow">YOUR PROPOSAL</div>
+      <h3>Ваш предварительный план</h3>
+      <p id="proposalText">
+        Выберите тариф и укажите параметры в диалоге. Мы покажем краткую
+        конфигурацию для дальнейшего обсуждения.
+      </p>
+      <p>Тариф: <strong id="planOut">BUSINESS · $399/мес. (пример)</strong></p>
+      <button class="btn" data-download-proposal>
+        ↓ Скачать предварительное предложение
+      </button>
+      <p class="note">
+        Скачивается текстовый файл с параметрами. Для финального КП необходимо
+        согласовать цены и состав работ.
+      </p>
+    </div>
+  </div>
+</section>

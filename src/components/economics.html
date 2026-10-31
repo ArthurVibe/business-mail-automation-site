@@ -1,0 +1,136 @@
+<section class="panel" id="economy">
+  <div class="economy-head">
+    <div>
+      <h2>Стоимость и экономическая выгода</h2>
+      <p class="subtitle">
+        Выберите конфигурацию и измените показатели компании — все расчёты
+        обновляются сразу.
+      </p>
+    </div>
+    <span class="commercial-label">ЕДИНЫЙ КОММЕРЧЕСКИЙ РАСЧЁТ</span>
+  </div>
+  <div class="commercial-layout">
+    <div class="commercial-main">
+      <h3 class="block-heading">01 · Что входит и сколько стоит</h3>
+      <div class="pricegrid">
+        <div class="price">
+          <h3>START</h3>
+          <div class="amount">$149 <small>/ мес.</small></div>
+          <p>Один почтовый ящик, один сценарий.</p>
+          <ul>
+            <li>Классификация писем</li>
+            <li>Извлечение данных</li>
+            <li>Черновики ответов</li>
+          </ul>
+          <button class="btn secondary" data-plan="START" data-amount="149">
+            Выбрать
+          </button>
+        </div>
+        <div class="price selected">
+          <h3>BUSINESS</h3>
+          <div class="amount">$399 <small>/ мес.</small></div>
+          <p>До трёх ящиков, до пяти сценариев.</p>
+          <ul>
+            <li>Всё из START</li>
+            <li>RFQ и предложения</li>
+            <li>Контроль ответов</li>
+          </ul>
+          <button class="btn" data-plan="BUSINESS" data-amount="399">
+            Выбрать
+          </button>
+        </div>
+        <div class="price">
+          <h3>CUSTOM</h3>
+          <div class="amount">По расчёту</div>
+          <p>Настройка под ваши процессы.</p>
+          <ul>
+            <li>Индивидуальные сценарии</li>
+            <li>Интеграции</li>
+            <li>Отдельные условия поддержки</li>
+          </ul>
+          <button class="btn secondary" data-plan="CUSTOM" data-amount="null">
+            Обсудить
+          </button>
+        </div>
+      </div>
+      <div class="investment-row">
+        <div>
+          <small>Ежемесячная плата</small><strong id="feeOut">$399</strong>
+        </div>
+        <div>
+          <small>Разовое внедрение · пример</small
+          ><strong id="setupOut">$900</strong>
+        </div>
+        <div>
+          <small>Стоимость первого года</small
+          ><strong id="yearCostOut">$5 688</strong>
+        </div>
+      </div>
+      <h3 class="block-heading">02 · Ваши исходные данные</h3>
+      <div class="fields" id="calcFields">
+        <div class="field">
+          <label for="emails">Писем в рабочий день</label
+          ><input id="emails" min="0" type="number" value="100" />
+        </div>
+        <div class="field">
+          <label for="minutes">Минут на одно письмо</label
+          ><input id="minutes" min="0" type="number" value="6" />
+        </div>
+        <div class="field">
+          <label for="hourly">Стоимость часа сотрудника, USD</label
+          ><input id="hourly" min="0" type="number" value="15" />
+        </div>
+        <div class="field">
+          <label for="share">Предполагаемое снижение трудозатрат, %</label
+          ><input id="share" max="100" min="0" type="number" value="60" />
+        </div>
+        <div class="field">
+          <label for="monthly">Ежемесячное обслуживание, USD (пример)</label
+          ><input id="monthly" min="0" type="number" value="399" />
+        </div>
+        <div class="field">
+          <label for="setup">Разовое внедрение, USD (пример)</label
+          ><input id="setup" min="0" type="number" value="900" />
+        </div>
+      </div>
+      <div class="commercial-note">
+        Цены, лимиты и стоимость внедрения — демонстрационные и требуют
+        согласования. Для CUSTOM стоимость подписки задаётся вручную.
+      </div>
+    </div>
+    <aside class="commercial-results">
+      <div class="result-kicker">ВАШ РАСЧЁТ</div>
+      <div class="result-big">
+        <small>Потенциальная экономическая выгода в месяц</small
+        ><strong id="netOut">—</strong
+        ><span>расчётная оценка · не гарантированная экономия</span>
+      </div>
+      <div class="result-line">
+        <span>Высвобождаемое время</span><b id="hoursOut">—</b>
+      </div>
+      <div class="result-line">
+        <span>Стоимость высвобожденного времени</span><b id="grossOut">—</b>
+      </div>
+      <div class="result-line">
+        <span>Стоимость сервиса</span><b id="sideFeeOut">$399</b>
+      </div>
+      <div class="result-line">
+        <span>Внедрение</span><b id="sideSetupOut">$900</b>
+      </div>
+      <div class="result-year" id="annualOut"></div>
+      <button class="btn commercial-cta" data-open-workspace>
+        Обсудить мою конфигурацию →
+      </button>
+      <p class="result-footnote">
+        Это оценка стоимости высвобождаемого рабочего времени, а не
+        гарантированное сокращение расходов. 22 рабочих дня/месяц.
+        Дополнительные расходы и налоги не учтены.
+      </p>
+    </aside>
+  </div>
+  <div class="next-page-link">
+    <button data-scroll="consultant" type="button">
+      Перейти к третьей странице — AI-консультант ↓
+    </button>
+  </div>
+</section>

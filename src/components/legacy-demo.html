@@ -1,0 +1,56 @@
+<div aria-hidden="true" class="legacy-demo41">
+  <div class="demo-window legacy-hero-demo">
+    <div class="window-top">
+      <div class="hero-window-heading">
+        <span class="window-dots"><i></i><i></i><i></i></span
+        ><span>WORKFLOW PREVIEW <small>/ MAIL INTELLIGENCE</small></span>
+      </div>
+      <span class="pill" id="status">DEMO</span>
+    </div>
+    <div class="demo-inner">
+      <div class="demo-overline">
+        <span class="demo-overline-pulse"></span> ПРИМЕР ОБРАБОТКИ ПИСЬМА
+        <span class="demo-overline-right">SIMULATED ENVIRONMENT</span>
+      </div>
+      <select
+        aria-label="Выбрать сценарий"
+        class="demo-scenario-select"
+        id="heroScenario"
+        data-scenario-select
+      >
+        <option value="0">01 — Запрос цены / RFQ</option>
+        <option value="1">02 — Предложение поставщика</option>
+        <option value="2">03 — Напоминание о сроках</option>
+      </select>
+      <div class="mail">
+        <small id="mailFrom">FROM: purchasing@sample-company.com</small>
+        <div><b id="mailSubject">Request for Quotation</b></div>
+        <p id="mailBody">
+          Please quote 5,000 units of Product A, including lead time and payment
+          terms.
+        </p>
+      </div>
+      <div aria-live="polite" class="demo-extract">
+        <b>AI ANALYSIS · РЕЗУЛЬТАТ ОБРАБОТКИ</b>
+        <p id="extraction">
+          Выберите сценарий и запустите обработку. Здесь появятся извлечённые
+          данные и результат.
+        </p>
+      </div>
+      <div class="steps" id="steps">
+        <div class="step">01 · Письмо получено</div>
+        <div class="step">02 · Определение намерения</div>
+        <div class="step">03 · Извлечение данных</div>
+        <div class="step">04 · Подготовка результата</div>
+      </div>
+      <div class="demo-controls">
+        <button class="btn" id="runBtn" data-run-demo>▶ Запустить</button
+        ><button class="btn secondary" data-reset-demo>↻ Сброс</button
+        ><span class="note" id="demoResult">Готов к запуску</span>
+      </div>
+      <div class="step-label" id="stepLabel">
+        Демонстрация на подготовленных данных
+      </div>
+    </div>
+  </div>
+</div>

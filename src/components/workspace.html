@@ -1,0 +1,118 @@
+<button class="ws-launch" id="wsLaunch" data-open-workspace>
+  ✦ Посчитать экономию
+</button>
+<div
+  aria-hidden="true"
+  aria-labelledby="wsTitle"
+  aria-modal="true"
+  class="ws-overlay"
+  id="wsOverlay"
+  role="dialog"
+>
+  <div class="ws-shell">
+    <div class="ws-head">
+      <div class="ws-head-brand">
+        <span aria-hidden="true" class="ws-head-mark">✦</span>
+        <div>
+          <small>BUSINESS MAIL AUTOMATION · AI WORKSPACE · V3.3</small
+          ><strong id="wsTitle">Персональное коммерческое предложение</strong>
+        </div>
+      </div>
+      <button class="ws-close" data-close-workspace>✕ Закрыть</button>
+    </div>
+    <div class="ws-mobile-tabs">
+      <button class="active" id="wsTabChat" data-view="chat">Диалог</button
+      ><button id="wsTabProposal" data-view="proposal">Live Proposal</button>
+    </div>
+    <div class="ws-grid" data-view="chat" id="wsGrid">
+      <div class="ws-left">
+        <div class="ws-kicker">01 · AI CONSULTANT</div>
+        <div class="ws-info">
+          Демо-консультант: извлекает основные параметры по правилам, не
+          подключён к языковой модели.
+        </div>
+        <div class="ws-progress-label">
+          <span>Готовность профиля</span><span id="wsProgressText">0%</span>
+        </div>
+        <div aria-label="Готовность профиля" class="ws-progress">
+          <div class="ws-progress-fill" id="wsProgressFill"></div>
+        </div>
+        <div aria-live="polite" class="ws-chatlog" id="wsChatlog"></div>
+        <div class="ws-quick">
+          <button
+            data-suggestion="Мы занимаемся логистикой, обрабатываем 150 писем в день, запрашиваем ставки перевозчиков"
+          >
+            Пример: логистика</button
+          ><button
+            data-suggestion="Мы занимаемся закупками и сравниваем предложения поставщиков"
+          >
+            Пример: закупки
+          </button>
+        </div>
+        <form class="ws-compose" data-form="workspace">
+          <input
+            aria-label="Сообщение консультанту"
+            id="wsInput"
+            placeholder="Расскажите о вашей компании..."
+          /><button type="submit">Отправить</button>
+        </form>
+        <div class="ws-status" id="wsStatus">Профиль: 0 из 5 параметров</div>
+      </div>
+      <div class="ws-right">
+        <div class="ws-kicker">02 · LIVE PROPOSAL</div>
+        <div class="ws-info">
+          Профиль и расчёт обновляются после сообщений. Расчёт можно менять
+          вручную в основном калькуляторе.
+        </div>
+        <div class="ws-proposal-head">
+          <span class="ws-section-caption">Конфигурация решения</span
+          ><span class="ws-preview-pill">LIVE · ДЕМО</span>
+        </div>
+        <div class="ws-prop">
+          <h3>Предварительное предложение</h3>
+          <div class="ws-line">
+            <span>Отрасль</span><b id="wsIndustry">Не указана</b>
+          </div>
+          <div class="ws-line">
+            <span>Процесс</span><b id="wsProcess">Не указан</b>
+          </div>
+          <div class="ws-line">
+            <span>Писем / день</span><b id="wsEmails">Не указано</b>
+          </div>
+          <div class="ws-line">
+            <span>Почтовых ящиков</span><b id="wsMailboxes">Не указано</b>
+          </div>
+          <div class="ws-line">
+            <span>Интеграции</span><b id="wsIntegrations">Не указаны</b>
+          </div>
+          <div class="ws-line">
+            <span>Тариф</span><b id="wsPlan">Не определён</b>
+          </div>
+          <div class="ws-line">
+            <span>Высвобождаемое время / мес.</span><b id="wsHours">—</b>
+          </div>
+          <div class="ws-line">
+            <span>Оценка эффекта / мес.</span><b id="wsNet">—</b>
+          </div>
+          <div class="ws-line">
+            <span>Разовое внедрение</span><b id="wsSetup">—</b>
+          </div>
+        </div>
+        <div class="ws-note">
+          Цены и тарифные ограничения — демонстрационные. Экономический эффект —
+          оценка высвобожденного времени, а не гарантированное снижение
+          расходов.
+        </div>
+        <button class="ws-primary" data-download-workspace>
+          ↓ Скачать предварительное КП (TXT)</button
+        ><button class="ws-close" data-close-workspace data-scroll="economy">
+          Открыть калькулятор и изменить параметры
+        </button>
+      </div>
+    </div>
+    <div class="ws-foot">
+      <span>Локальное демо · Сообщения не отправляются на сервер</span
+      ><button data-reset-workspace>Начать заново</button>
+    </div>
+  </div>
+</div>

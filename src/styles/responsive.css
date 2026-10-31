@@ -1,0 +1,13 @@
+/* The v4.4 ID selector hid economy despite the later continuous-scroll rule.
+   Keep all three approved panels in the document flow at every viewport. */
+main.wrap > #demo.panel,
+main.wrap > #economy.panel,
+main.wrap > #consultant.panel {
+  display: block !important;
+}
+
+main.wrap > #demo.panel,
+main.wrap > #economy.panel,
+main.wrap > #consultant.third-page {
+  scroll-margin-top: var(--navigation-height, 72px);
+}
